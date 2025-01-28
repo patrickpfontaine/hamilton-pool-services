@@ -1,0 +1,69 @@
+.taskbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 1rem;
+    background-color: #002f4b;
+    font-family: "Source Serif Pro", serif;
+    color: white;
+  }
+  
+  .homeParent {
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+  }
+  
+  .home {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .home:hover {
+    text-decoration: underline;
+  }
+  
+  .callToGetContainer {
+    text-align: right;
+    font-size: 1.5rem;
+  }
+  
+  .callToGet {
+    text-align-last: center;
+    margin: 0;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100%;
+    height: 100%;
+    margin-right: .5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .taskbar {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .homeParent {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    .callToGetContainer {
+      text-align: left;
+      margin-top: 1rem;
+    }
+  }
+  
+  
+

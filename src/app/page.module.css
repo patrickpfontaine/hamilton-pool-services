@@ -1,0 +1,81 @@
+.Homepage {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 1024px;
+    overflow-y: auto;
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Source Serif Pro';
+  }
+  
+  .poolImage {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .hamiltonPoolServicesContainer {
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 386px);
+    font-size: 90px;
+    display: inline-block;
+    text-align: center;
+    width: fit-content;
+    height: 76px;
+    text-shadow: 1px 0 0 #5b5959, 0 1px 0 #5b5959, -1px 0 0 #5b5959, 0 -1px 0 #5b5959;
+  }
+  
+  .locationsParent {
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 340px);
+    width: 680px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    gap: 300px;
+    color: #002f4b;
+    text-wrap: nowrap;
+  }
+  
+  .contentContainer {
+    position: absolute;
+    top: 70%; /* Adjust this value to position the container vertically */
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25%;
+    align-items: center;
+  }
+  
+  .descriptionContainer {
+    width: 50%;
+    font-size: 36px;
+    color: #101526;
+  }
+  
+  .mapContainer {
+    width: 50%;
+    text-align: right;
+    color:#101526;
+    text-align: center;
+  }
+  
+  .poolMap {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
