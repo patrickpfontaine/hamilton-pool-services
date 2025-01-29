@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { Geist, Azeret_Mono as Geist_Mono } from "next/font/google"
 import "./styles/globals.css"
-import TaskBar from "./components/header"
+import TaskBar from "./components/taskbar"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

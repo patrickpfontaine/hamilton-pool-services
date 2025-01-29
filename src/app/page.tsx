@@ -4,15 +4,17 @@ import styles from './page.module.css';
 const Desktop = () => {
   return (
     <div className={styles.Homepage}>
-      <Image className={styles.poolImage} width={1280} height={356} alt="test" src="/test1.png" />
-      <b className={styles.hamiltonPoolServicesContainer}>
-        <p className={styles.hamiltonPoolServices}>Hamilton Pool Services</p>
-      </b>
+      
+      
       <div className={styles.locationsParent}>
         <div className={styles.drippingSprings}>Dripping Springs</div>
         <div className={styles.lakeway}>Lakeway</div>
         <div className={styles.beeCave}>Bee Cave</div>
       </div>
+      <Image className={styles.poolImage} width={1280} height={853} alt="test" src="/poolpic3.png" />
+      <b className={styles.hpsTitleContainer}>
+        <p className={styles.hamiltonPoolServices}>Hamilton Pool Services</p>
+      </b>
       <div className={styles.contentContainer}>
         <div className={styles.descriptionContainer}>
           <p className={styles.austinsLocalSwimming}>Austin’s local swimming pool cleaning, maintenance, repair, and renovation company.</p>
